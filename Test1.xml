@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Anh Tester test">
+    <test name="Tran Thanh Lam 's test cases">
+        <classes>
+            <class name="tests.SignInTest">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="testLoginWithDifferentAccount"/>
+                </methods>
+            </class>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="testSearchItems"/>
+                    <include name="testAddNewCustomer"/>
+                    <include name="testCustomerDashBoard"/>
+                    <include name="testAddCustomer"/>
+                    <include name="testBuySomeItem"/>
+                    <include name="testCreateCusAdvice"/>
+                </methods>
+            </class>
+            <class name="tests.AdminTest">
+                <methods>
+                    <include name="getTextOnTable"/>
+                    <include name="countColAndRowOnTable"/>
+                    <include name="totalsColsAndRows"/>
+                    <include name="inputNameOutputInfo"/>
+                    <include name="checkNumberOfTable"/>
+                    <include name="searchCusName"/>
+                    <include name="deleteCustomer"/>
+                    <include name="inputNameOutputInfoMap"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
