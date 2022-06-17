@@ -5,13 +5,19 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.Select;
-
 import java.time.Duration;
 
 public class HomePage extends BasePage {
 
+    private static  HomePage _instance;
 
-    //tao action class
+    private HomePage(){}
+
+    public static HomePage getInstance(){
+        if(_instance == null)
+            _instance = new HomePage();
+        return _instance;
+    }
 
     //cac locator for search
     By inputSearchBar = By.xpath("//input[@id='product_name']");

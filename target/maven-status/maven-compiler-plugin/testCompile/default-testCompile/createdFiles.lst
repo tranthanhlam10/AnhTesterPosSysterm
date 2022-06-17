@@ -1,0 +1,12 @@
+pages\BasePage.class
+pages\HomePage.class
+pages\SignInPage.class
+drivermanager\BDriverManager.class
+drivermanager\ChromeDriverManager.class
+tests\BaseTest.class
+drivermanager\EdgeDriverManager.class
+tests\AdminTest.class
+drivermanager\BDriverFactory.class
+tests\HomePageTest.class
+pages\AdminPage.class
+tests\SignInTest.class

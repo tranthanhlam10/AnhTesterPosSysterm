@@ -3,12 +3,19 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-
-
 import java.util.*;
 
 public class AdminPage extends BasePage {
 
+    private static AdminPage _instance;
+
+    private  AdminPage() {};
+
+    public static AdminPage getInstance(){
+        if(_instance == null)
+            _instance = new AdminPage();
+        return _instance;
+    }
     // cac locator tim gia tri trong tables
     By trCusName2 = By.xpath("//*[@id=\"customer_tablebody\"]/tr[6]/td[3]");
 
@@ -28,7 +35,7 @@ public class AdminPage extends BasePage {
 
         boolean a = driver.findElement(trCusName2).isDisplayed();
         String b = driver.findElement(trCusName2).getText();
-        ;
+
         if (a) {
 
             System.out.println(b);
@@ -89,7 +96,7 @@ public class AdminPage extends BasePage {
                 String CellData = EachRowData.get(j).getText();
                 StoreEachRowData.put(StoredHeader.get(j), CellData);
             }
-            TableData.add(StoreEachRowData);
+            TableData.add(StoreEachRowData);    
         }
         for (Map<String, String> tableDatum : TableData) {
             List<String> list = new ArrayList<>(tableDatum.values());
@@ -178,7 +185,7 @@ public class AdminPage extends BasePage {
         driver.navigate().to("https://pos.anhtester.com/customer_list");
         // setup cac lua chon select
         Select numlist = new Select(driver.findElement(ddbNumberList));
-        String a[] = {"10", "25", "50", "100", "250", "500", "All"};
+        String[] a = {"10", "25", "50", "100", "250", "500", "All"};
         numlist.selectByVisibleText(a[1]);
         // setup kiem tra
         List<WebElement> numberTable = driver.findElements(By.xpath("//*[@id=\"customer_tablebody\"]/tr/td[1]"));
@@ -197,12 +204,11 @@ public class AdminPage extends BasePage {
         driver.findElement(tfSearch).sendKeys(name);
         List<WebElement> row2 = driver.findElements(By.xpath("//*[@id=\"customer_tablebody\"]/tr/td[2]"));
 
-        for (int i = 0; i < row2.size(); i++) {
-            if (name.equalsIgnoreCase(row2.get(i).getText())){
-                System.out.println(row2.get(i).getText());
-            return "Tim kiem thanh cong";
-            }
-            else return  "Tim kiem khong thanh cong";
+        for (WebElement webElement : row2) {
+            if (name.equalsIgnoreCase(webElement.getText())) {
+                System.out.println(webElement.getText());
+                return "Tim kiem thanh cong";
+            } else return "Tim kiem khong thanh cong";
         }
         return "Nope";
     }
@@ -216,9 +222,6 @@ public class AdminPage extends BasePage {
         // lay nut xoa dau tien
         boolean check = btnDelete.get(1).isDisplayed();
         btnDelete.get(1).click();
-        if (!check){
-            return true;
-        } else
-            return false;
+        return !check;
     }
 }

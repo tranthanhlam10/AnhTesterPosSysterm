@@ -4,6 +4,16 @@ import org.openqa.selenium.By;
 
 public class SignInPage extends BasePage{
 
+    private static SignInPage _instance;
+
+    private  SignInPage(){}
+
+    public static SignInPage getInstance(){
+        if(_instance == null)
+            _instance = new SignInPage();
+        return _instance;
+    }
+
     By inputUsername = By.xpath("//input[@id='email']");
     By inputPassword = By.xpath("//input[@id='password']");
     By btnLogin = By.xpath("//button[@class='btn btn-success']");

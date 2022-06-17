@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="32" failures="5" name="TestSuite" time="81.343" errors="0" skipped="24">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_311\bin"/>
+    <property name="java.vm.version" value="25.311-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Thanh Lam Tran\AnhTesterPosSysterm"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="env" value="chrome"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Thanh Lam Tran\AnhTesterPosSysterm"/>
+    <property name="java.runtime.version" value="1.8.0_311-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_311\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\lamtran\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Install\apache-maven-3.8.4\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Install\apache-maven-3.8.4\bin;C:\Program Files\Git\cmd;C:\Install\allure-2.17.2\allure-2.17.2\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\lamtran\AppData\Local\Microsoft\WindowsApps;C:\Users\lamtran\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;C:\Users\lamtran\AppData\Local\Programs\Git\cmd;C:\Users\lamtran\AppData\Local\gitkraken\bin;C:\Users\lamtran\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lamtran\AppData\Local\JetBrains\JetBrains Rider 2022.1\bin;;C:\Users\lamtran\.dotnet\tools;."/>
+    <property name="maven.conf" value="C:\Install\apache-maven-3.8.4/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Install\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\lamtran"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="lamtran"/>
+    <property name="java.class.path" value="C:\Install\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_311"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Denv=chrome"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_311"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_311\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_311\lib\resources.jar;C:\Program Files\Java\jre1.8.0_311\lib\rt.jar;C:\Program Files\Java\jre1.8.0_311\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_311\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_311\lib\jce.jar;C:\Program Files\Java\jre1.8.0_311\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_311\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_311\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Install\apache-maven-3.8.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="tests.AdminTest" name="countColAndRowOnTable" time="2.174"/>
+  <testcase classname="tests.AdminTest" name="signIn" time="12.442">
+    <failure message="element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LVN01000147&apos;, ip: &apos;192.168.43.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3db8cc2b2f349a1393a3327d6b6e20d, sendKeysToElement {id=c7de0658-1228-4861-b19d-d30a35504b4d, value=[Ljava.lang.CharSequence;@6a9d5dff}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lamtran\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60193/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b3db8cc2b2f349a1393a3327d6b6e20d)] -&gt; xpath: //input[@id=&apos;email&apos;]]
+Session ID: b3db8cc2b2f349a1393a3327d6b6e20d" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LVN01000147&apos;, ip: &apos;192.168.43.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3db8cc2b2f349a1393a3327d6b6e20d, sendKeysToElement {id=c7de0658-1228-4861-b19d-d30a35504b4d, value=[Ljava.lang.CharSequence;@6a9d5dff}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lamtran\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60193/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b3db8cc2b2f349a1393a3327d6b6e20d)] -&gt; xpath: //input[@id=&apos;email&apos;]]
+Session ID: b3db8cc2b2f349a1393a3327d6b6e20d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
+	at pages.SignInPage.Login(SignInPage.java:24)
+	at tests.AdminTest.signIn(AdminTest.java:16)
+</failure>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="getTextOnTable" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="signIn" time="0.013">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="inputNameOutputInfo" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="signIn" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="totalsColsAndRows" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="signIn" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="checkNumberOfTable" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="signIn" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="inputNameOutputInfoMap" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="signIn" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="searchCusName" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="signIn" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="deleteCustomer" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.AdminTest" name="tearDown" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="testSearchItems" time="4.117"/>
+  <testcase classname="tests.HomePageTest" name="signIn" time="14.259">
+    <failure message="element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LVN01000147&apos;, ip: &apos;192.168.43.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f2a16ffdddf63c2e34f85d1d9e01a226, sendKeysToElement {id=5a8421bb-63a8-40fb-a02f-4b63c0bbc5f7, value=[Ljava.lang.CharSequence;@6c03fb16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lamtran\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60276}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60276/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f2a16ffdddf63c2e34f85d1d9e01a226)] -&gt; xpath: //input[@id=&apos;email&apos;]]
+Session ID: f2a16ffdddf63c2e34f85d1d9e01a226" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LVN01000147&apos;, ip: &apos;192.168.43.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f2a16ffdddf63c2e34f85d1d9e01a226, sendKeysToElement {id=5a8421bb-63a8-40fb-a02f-4b63c0bbc5f7, value=[Ljava.lang.CharSequence;@6c03fb16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lamtran\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60276}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60276/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f2a16ffdddf63c2e34f85d1d9e01a226)] -&gt; xpath: //input[@id=&apos;email&apos;]]
+Session ID: f2a16ffdddf63c2e34f85d1d9e01a226
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
+	at pages.SignInPage.Login(SignInPage.java:24)
+	at tests.HomePageTest.signIn(HomePageTest.java:16)
+</failure>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="testAddNewCustomer" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="signIn" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="testAddCustomer" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="signIn" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="testBuySomeItem" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="signIn" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="testCreateCusAdvice" time="0.023">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="signIn" time="0.027">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="testCustomerDashBoard" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="tearDown" time="0.012">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.SignInTest" name="testLogin" time="17.729"/>
+  <testcase classname="tests.SignInTest" name="testLoginWithDifferentAccount" time="10.313">
+    <failure message="element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LVN01000147&apos;, ip: &apos;192.168.43.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2821e6b11654de5a6e097e0156f5706e, sendKeysToElement {id=9a8c2707-17b0-4207-ab7d-9ef41fb04017, value=[Ljava.lang.CharSequence;@67d86804}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lamtran\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60441/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2821e6b11654de5a6e097e0156f5706e)] -&gt; xpath: //input[@id=&apos;email&apos;]]
+Session ID: 2821e6b11654de5a6e097e0156f5706e" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LVN01000147&apos;, ip: &apos;192.168.43.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2821e6b11654de5a6e097e0156f5706e, sendKeysToElement {id=9a8c2707-17b0-4207-ab7d-9ef41fb04017, value=[Ljava.lang.CharSequence;@67d86804}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lamtran\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60441/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2821e6b11654de5a6e097e0156f5706e)] -&gt; xpath: //input[@id=&apos;email&apos;]]
+Session ID: 2821e6b11654de5a6e097e0156f5706e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
+	at pages.SignInPage.Login(SignInPage.java:24)
+	at tests.SignInTest.testLoginWithDifferentAccount(SignInTest.java:29)
+</failure>
+  </testcase>
+  <testcase classname="tests.SignInTest" name="testLoginWithDifferentAccount" time="10.049">
+    <failure message="element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LVN01000147&apos;, ip: &apos;192.168.43.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2821e6b11654de5a6e097e0156f5706e, sendKeysToElement {id=9a8c2707-17b0-4207-ab7d-9ef41fb04017, value=[Ljava.lang.CharSequence;@5a82ebf8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lamtran\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60441/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2821e6b11654de5a6e097e0156f5706e)] -&gt; xpath: //input[@id=&apos;email&apos;]]
+Session ID: 2821e6b11654de5a6e097e0156f5706e" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LVN01000147&apos;, ip: &apos;192.168.43.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2821e6b11654de5a6e097e0156f5706e, sendKeysToElement {id=9a8c2707-17b0-4207-ab7d-9ef41fb04017, value=[Ljava.lang.CharSequence;@5a82ebf8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lamtran\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60441/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2821e6b11654de5a6e097e0156f5706e)] -&gt; xpath: //input[@id=&apos;email&apos;]]
+Session ID: 2821e6b11654de5a6e097e0156f5706e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
+	at pages.SignInPage.Login(SignInPage.java:24)
+	at tests.SignInTest.testLoginWithDifferentAccount(SignInTest.java:29)
+</failure>
+  </testcase>
+  <testcase classname="tests.SignInTest" name="testLoginWithDifferentAccount" time="10.058">
+    <failure message="element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LVN01000147&apos;, ip: &apos;192.168.43.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2821e6b11654de5a6e097e0156f5706e, sendKeysToElement {id=9a8c2707-17b0-4207-ab7d-9ef41fb04017, value=[Ljava.lang.CharSequence;@3cf7298d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lamtran\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60441/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2821e6b11654de5a6e097e0156f5706e)] -&gt; xpath: //input[@id=&apos;email&apos;]]
+Session ID: 2821e6b11654de5a6e097e0156f5706e" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LVN01000147&apos;, ip: &apos;192.168.43.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2821e6b11654de5a6e097e0156f5706e, sendKeysToElement {id=9a8c2707-17b0-4207-ab7d-9ef41fb04017, value=[Ljava.lang.CharSequence;@3cf7298d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lamtran\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60441/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2821e6b11654de5a6e097e0156f5706e)] -&gt; xpath: //input[@id=&apos;email&apos;]]
+Session ID: 2821e6b11654de5a6e097e0156f5706e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
+	at pages.SignInPage.Login(SignInPage.java:24)
+	at tests.SignInTest.testLoginWithDifferentAccount(SignInTest.java:29)
+</failure>
+  </testcase>
+</testsuite>

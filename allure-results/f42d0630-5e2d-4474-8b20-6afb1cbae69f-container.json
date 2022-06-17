@@ -1,0 +1,1 @@
+{"uuid":"f42d0630-5e2d-4474-8b20-6afb1cbae69f","name":"tests.AdminTest.signIn","children":["6a0658cc-2213-4bc5-bffa-d5bf0e143fa9"],"description":"","befores":[{"name":"signIn","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1655460861807,"stop":1655460861807}],"afters":[],"start":1655460861807,"stop":1655460861808}

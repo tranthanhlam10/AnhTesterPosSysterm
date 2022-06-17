@@ -1,0 +1,1 @@
+{"uuid":"98f2d387-bd4a-4f58-9cc4-f2b0fafb465a","name":"tests.HomePageTest.signIn","children":["48d9d80d-1535-44ff-a63b-ac6ad858bfe4"],"description":"","befores":[{"name":"signIn","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1655461017778,"stop":1655461017778}],"afters":[],"start":1655461017778,"stop":1655461017778}
